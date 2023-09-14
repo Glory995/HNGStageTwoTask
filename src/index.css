@@ -1,0 +1,474 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+  color: white; 
+}
+
+
+
+
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.inputseacrch {
+  padding-right: 30px;
+}
+
+.material-symbols-outlined {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  
+}
+
+
+
+.navwrap {
+  width: 90%;
+  margin: 0 auto;
+  position: relative; /* Add a position property */
+  z-index: 1; /* Set a higher z-index value */
+  margin-top: -500px;
+}
+
+.navbar{
+
+  display: flex;
+  width: 100%;
+
+  justify-content: space-between;
+  align-items: center;
+ 
+ 
+  
+ 
+}
+
+.navlogo{
+  width: 50px;
+  height: 50px;
+  align-self: center;
+  margin-right: 10px;
+}
+
+
+
+.logodiv{
+
+  display: flex;
+  align-self: center;
+}
+
+.logodiv h3{
+  font-size: 24px;
+}
+
+.inputseacrch{
+
+  width: 500px;
+  height: 36px;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 3px solid white;
+}
+
+.inputseacrch:focus{
+  border: white;
+  
+}
+
+.inputseacrch::placeholder{
+
+  font-size: 16px;
+  color: white;
+}
+
+.button{
+
+  display: flex;
+  gap: 10px;
+
+}
+
+.signin{
+
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+
+.equals{
+
+  background-color: rgba(190, 18, 60, 1);
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 18px;
+}
+
+.swiper {
+  
+  width: 97%;
+  margin: 0 auto;
+  position: relative; /* Add a position property */
+  z-index: 0; /* Set a lower z-index value */
+}
+
+.swiper .Slider img{
+
+  width: 100%;
+  height: 500px;
+}
+
+h1{
+
+  margin-top: 500px;
+  width: 90%;
+  margin-left: 1%;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust column width as needed */
+  grid-gap: 20px; 
+  width: 100%;
+  margin: 0 auto;
+}
+.idmb{
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.idmb img{
+  width:50px;
+  height: 30px;
+}
+
+.movie-card {
+  background-color: #fff; /* Optional: Add background color to movie cards */
+  border-radius: 8px; /* Optional: Add rounded corners to movie cards */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow to movie cards */
+  padding: 20px; 
+}
+
+.movie-poster{
+
+  width: 100%;
+}
+
+.elementTitle{
+
+  font-size: 42px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.linkHome{
+
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  align-self: center;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.linkHome:hover{
+
+  font-size: 20px;
+  color:rgb(190, 18, 60, 1) ;
+}
+
+.imagediv{
+
+  width: 90%;
+  background-color: red;
+  margin: 0 auto;
+}
+
+.imagediv img{
+
+ width: 100% ;
+ 
+}
+
+.imagediv h2{
+
+  text-align: center;
+  margin-top: -300px;
+  z-index: 2;
+ 
+  color: #fff;
+}
+
+
+
+.realeseRuntime{
+
+  display: flex;
+  gap: 20px;
+}
+
+.genre{
+
+  display: flex;
+}
+
+.genre h3{
+
+  font-size: 16px;
+}
+
+.genre ul{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 10px;
+}
+
+
+
+.realesgen{
+  display: grid;
+  
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 270px;
+}
+
+.realeseRuntime h4 span{
+
+  font-weight: 400;
+}
+
+
+.overview{
+
+  width: 90%;
+  margin: 0 auto;
+ 
+}
+
+.overview p{
+
+  width: 70%;
+  text-align: justify;
+}
+
+.ni{
+
+  width: 90%;
+  margin: 0 auto ;
+}
+
+.seeDe{
+
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid rgba(190, 18, 60, 1);
+  background-color: rgba(190, 18, 60, 1);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.seeDe:hover{
+
+  background-color: #fff;
+  color:rgba(190, 18, 60, 1) ;
+
+}
+
+
+.movie-title{
+
+  font-size: 18px;
+}
+
+.video{
+
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50% !important;
+  margin-left: 550px;
+
+
+}
+
+.fotterdiv{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+
+}
+
+.imagesfooter{
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
+
+
+
+.listting{
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.listting li{
+
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(17, 24, 39, 1);
+}
+
+.footerp{
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(107, 114, 128, 1);
+
+
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+
+  
+  .navlogo{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+  }
+  
+  
+  
+  .logodiv{
+  
+    display: flex;
+    align-self: center;
+  }
+  
+  .logodiv h3{
+    font-size: 14px;
+  }
+
+  .inputseacrch{
+
+    width: 500px;
+    height: 36px;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 3px solid white;
+    display: none;
+  }
+
+  .h1{
+
+    font-size: 20px;
+  }
+
+
+  
+.imagediv h2{
+  margin-top: -100px;
+ 
+}
+
+.elementTitle{
+
+  font-size: 30px;
+}
+
+.realesgen{
+  margin-top: 70px;
+}
+
+.realeseRuntime{
+  flex-direction: column;
+  gap: 0px;
+}
+
+.overview p{
+
+  width: 100%;
+}
+.linkHome{
+
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+.video{
+
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50% !important;
+  align-self: center;
+
+}
+
+
+.video{
+
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50% !important;
+  margin-left: 120px;
+  margin-top: -20px;
+
+
+}
+
+
+.listting li{
+
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(17, 24, 39, 1);
+}
+
+.footerp{
+  font-size: 12px;
+  
+
+
+}
+
+.idmb img{
+  width:30px;
+  height: 20px;
+}
+
+  
+}
