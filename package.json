@@ -1,7 +1,7 @@
 {
   "name": "stagetwomovie",
   "version": "0.1.0",
-  "homepage": "https://Glory995.github.io/HNGStageTwoTask",
+  "homepage": "https://Glory995.github.io/HngStageTwotask",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
